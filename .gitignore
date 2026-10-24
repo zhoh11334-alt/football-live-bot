@@ -1,0 +1,35 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs, caches, temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Common build artifacts and dependencies (stack-agnostic starter)
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+target/
+bin/
+obj/
